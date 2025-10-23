@@ -95,6 +95,16 @@ fun ActivitasPertama(modifier: Modifier){
                         fontSize = 20.sp,
                         color = Color(0xFF64B5F6),
                         modifier = Modifier.padding(top = 10.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.NoHp),
+                        fontSize = 20.sp,
+                        color = Color.Gray,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                }
+            }
+        }
 
         Box(modifier = Modifier
             .fillMaxSize()){
