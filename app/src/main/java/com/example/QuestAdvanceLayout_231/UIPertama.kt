@@ -44,7 +44,7 @@ fun ActivitasPertama(modifier: Modifier){
                 containerColor = Color.DarkGray
             )){
             Row() {
-                val gambar = painterResource(id = R.drawable.download)
+                val gambar = painterResource(id = R.drawable.umy)
                 Image(
                     painter = gambar,
                     contentDescription = null,
@@ -68,6 +68,7 @@ fun ActivitasPertama(modifier: Modifier){
                 }
             }
         }
+
         Box(modifier = Modifier
             .fillMaxSize()){
             Text(text = stringResource(id = R.string.copy),
